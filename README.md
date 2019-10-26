@@ -1,12 +1,15 @@
-# flutter_leapper
-
-
+### flutter_leapper_ui
 
 Ok, now it&#x27;s on my own.
 
+# ![homePage](./homePage.jpg)
+# ![detailPage](./detailPage.jpg)
+
 
 10/26
+
 1. 继续完善这个app
+2. 图片之间可以添加 Hero 动画效果。
 
 
 10/25
