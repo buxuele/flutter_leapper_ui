@@ -1,7 +1,12 @@
 # flutter_leapper
 
+
+
 Ok, now it&#x27;s on my own.
 
+
+10/26
+1. 继续完善这个app
 
 
 10/25

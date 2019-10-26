@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 // 实际上的搜索功能 以后再搞
-
-
+// 这个搜索框的 UI 其实很有用。
 class SearchBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

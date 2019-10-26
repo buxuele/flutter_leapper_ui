@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import './search_box.dart';   // SearchBox
 import './topic_box.dart';    // TopicBox
 import './content_box.dart';  // ContentBox
-import './bottom_box.dart';   // BottomBox
+//import './bottom_box.dart';   // BottomBox
 
 
 

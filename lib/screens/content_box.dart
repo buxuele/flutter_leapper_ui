@@ -7,6 +7,8 @@ import '../utils/data.dart'; // pictures
 // 当前只需要考虑里面应该如何排列。
 // 考虑 用一种随机的排列方式， 1--3的随机数，结合图片的尺寸比例来排列
 
+// 一个想法， 比如 按照照片列表的index, 0--a, 1&2--b, 3---a, 4&5--b,需要算法。。
+
 class ContentBox extends StatelessWidget {
   // Image.asset(pictures[1].picturePath);
   @override
