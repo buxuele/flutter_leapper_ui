@@ -40,7 +40,7 @@ class SearchBox extends StatelessWidget {
                     ),
                     SizedBox(width: 10),
                     Icon(
-                      Icons.favorite_border,
+                      Icons.radio_button_checked,
                       size: 30,
                     ),
                   ],

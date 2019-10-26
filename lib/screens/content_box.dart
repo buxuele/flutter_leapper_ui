@@ -56,7 +56,6 @@ class ContentBox extends StatelessWidget {
           Container(
             height: unitHeight,
             child: Row(
-              // add padding outside later todo
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Container(

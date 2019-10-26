@@ -5,6 +5,8 @@ class BottomBox extends StatefulWidget {
   _BottomBoxState createState() => _BottomBoxState();
 }
 
+
+// 这一部分 需要固定在底部。而且需要一个椭圆的边框。等等再说。
 class _BottomBoxState extends State<BottomBox> {
   @override
   Widget build(BuildContext context) {

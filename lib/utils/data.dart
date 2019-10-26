@@ -4,6 +4,8 @@ class Picture {
   final String picturePath;
   final String about;
 
+  // final bool isLiked;
+
   Picture(this.picturePath, this.about);
 }
 

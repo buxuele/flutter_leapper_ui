@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,   // white70
+      backgroundColor: Colors.white70,   // white70
 
 //      body: ListView(
 //        children: <Widget>[
@@ -72,10 +72,8 @@ class _MyHomePageState extends State<MyHomePage>
 
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
-
         backgroundColor: Colors.black,
-        iconSize: 30,   // 改变所有的图标大小
-  //      selectedLabelStyle:,    // todo add bg
+        iconSize: 30,     // 改变所有的图标大小
 
         onTap: (index) {
           _pageController.animateToPage(
@@ -93,15 +91,15 @@ class _MyHomePageState extends State<MyHomePage>
               title: SizedBox.shrink()
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.control_point, size: 35.0,color: Colors.grey,),
+              icon: Icon(Icons.control_point, size: 35.0,color: Colors.blueGrey),
               title: SizedBox.shrink()
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.favorite_border, size: 35.0,color: Colors.grey,),
+              icon: Icon(Icons.favorite_border, size: 35.0,color: Colors.blueGrey,),
               title: SizedBox.shrink()
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.more_horiz, size: 35.0,color: Colors.grey,),
+              icon: Icon(Icons.more_horiz, size: 35.0,color: Colors.blueGrey,),
               title: SizedBox.shrink()
           ),
         ],

@@ -340,7 +340,7 @@ class DetailScreen extends StatelessWidget {
           _buildUserInfo(),
           _buildPictureInfo(),
 
-//          _buildDownloadButton(),   // todo use bottomBar
+          _buildDownloadButton(),   // todo use bottomBar
         ],
       ),
     );

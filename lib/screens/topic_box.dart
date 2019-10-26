@@ -13,7 +13,7 @@ class TopicBox extends StatelessWidget {
   ];
 
   // 这里要判断当前的话题是否被选中，
-  // 如果选中：字体是红色的，且下面有个圆点， 字体应该更大一点。todo
+  // 如果选中：字体是红色的，且下面有个圆点， 字体应该更大一点。
   List<Widget> _buildRow() {
     for (var i in topics) {
 
