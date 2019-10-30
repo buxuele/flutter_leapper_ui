@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import '../utils/data.dart';
@@ -7,6 +6,7 @@ class DetailScreen extends StatelessWidget {
   Widget _buildBanner() {
     return AppBar(
 //      leading: Icon(Icons.keyboard_backspace, color: Colors.black, size: 30,),
+    backgroundColor: Colors.white70,
       leading: Builder(
         builder: (context) {
           return IconButton(
@@ -311,20 +311,46 @@ class DetailScreen extends StatelessWidget {
   }
 
 
-  // 这里和首页一样，又涉及到自定义一个 底部导航栏了。。
+  // 这里和首页一样，又涉及到自定义一个 底部导航栏了。。todo
   Widget _buildDownloadButton() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: <Widget>[
-        Icon(Icons.favorite, color: Colors.pinkAccent,),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text("Download free",style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold,),),
-            Icon(Icons.arrow_downward, color: Colors.pinkAccent,),
-          ],
-        ),
-      ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 15,),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(left: 8.0),
+            child: Icon(Icons.favorite, color: Colors.pinkAccent, size: 35,),
+          ),
+
+          DecoratedBox(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              color: Colors.pinkAccent,
+            ),
+            child: Padding(
+              padding: EdgeInsets.all(15,),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text("Download free",
+                    style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(width: 3,),
+                  Icon(
+                    Icons.arrow_downward,
+                    color: Colors.white,
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
     );
 
   } // later on

@@ -2,26 +2,20 @@
 
 Ok, now it&#x27;s on my own.
 
-# ![homePage](./homePage.jpg)
-# ![detailPage](./detailPage.jpg)
+screenshots:
+![./homePage](./01.jpg)![./detailPage](./02.jpg)
+
+
+10/30
+1.想让 BottomNavigationBar 漂浮起来，很简单啊，直接加padding就行了。
+2.如果想显示圆角， [参见](https://stackoverflow.com/questions/56577265/how-to-set-border-radius-to-bottom-app-bar-in-a-flutter-app)
+大致意思是，把 BottomNavigationBar 放到一个 stack 的最外层，然后整体再放到body里面
+3.而且，关于添加圆角， 如果直接在 BottomNavigationBar上添加 DecoratedBox 是不起效果的。
+改用 ClipRRect().
+
 
 
 10/26
-
 1. 继续完善这个app
 2. 图片之间可以添加 Hero 动画效果。
 
-
-10/25
-1. SearchBox 和 TopicBox，这2个应该是可以考虑合为一个 可以隐藏的 appbar ##todo
-不必了，因为整体就是一个 ListView
-2. 目前还是先专注UI， 先把样式给模拟下来，功能后续再搞...
-3. 目前只搞UI。只搞UI。。
-4. 首页的底部导航栏，这个圆角矩形目前还不会搞。
-5. 考虑到长远的拓展，最好是使用最基础的 BottomNavigationBar。形状的问题稍后再解决。
-
-
-10/24
-1. 先写一下最简单的页面梗概
-2. 收集素材
-3. 设计项目目录
