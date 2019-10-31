@@ -2,6 +2,9 @@
 
 Ok, now it&#x27;s on my own.
 
+
+Based on this image ![](./target.png)
+
 screenshots:
 ![./homePage](./01.jpg)![./detailPage](./02.jpg)
 
