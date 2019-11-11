@@ -4,11 +4,11 @@ Ok, now it&#x27;s on my own.
 
 
 Based on this image 
-![target](.https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/target.png)
+![target](https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/target.png)
 
 Screenshots:
-![./homePage](https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/01.jpg)
-![./detailPage](.https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/02.jpg)
+![homePage](https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/01.jpg)
+![detailPage](https://raw.githubusercontent.com/buxuele/flutter_leapper_ui/master/02.jpg)
 
 
 10/30
